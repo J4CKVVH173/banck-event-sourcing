@@ -1,5 +1,5 @@
 #[cfg(test)]
 mod tests;
 
-mod event;
-mod event_aggregate;
+pub mod event;
+pub mod event_aggregate;
