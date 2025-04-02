@@ -4,7 +4,7 @@ use crate::domain::{event::Event, event_aggregate::EventAggregate};
 
 use super::storage::Storage;
 
-struct UseCases<T: Storage> {
+pub struct UseCases<T: Storage> {
     storage: T,
 }
 

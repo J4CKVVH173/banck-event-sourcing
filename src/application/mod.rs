@@ -1,2 +1,4 @@
-mod use_cases;
+pub mod use_cases;
 mod storage;
+
+pub use self::storage::Storage;
