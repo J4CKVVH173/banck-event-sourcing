@@ -1,3 +1,6 @@
+#[cfg(test)]
+mod tests;
+
 use std::fmt::{Display, Formatter};
 
 use crate::domain::event::Event;
